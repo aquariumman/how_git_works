@@ -1,0 +1,9 @@
+
+git init		 --- from the project folder (creating new repository)
+
+git status  		 --- check the status of the files in the repo
+
+git add _key_		 --- add files to the stage [.] -- all files in repo, [-A] -- all files in repo, [file_name] -- all files in repo
+
+git commit -m "message"	 --- commit changes with appropriate message
+

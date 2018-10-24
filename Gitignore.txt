@@ -1,0 +1,30 @@
+
+.gitignore   -- in this file we colect files wich will not be commited and tracked
+
+*            -- matches zero or more characters
+
+[abc]        -- matches any character inside the brackets (in this case a, b, or c)
+
+?            -- matches a single character
+
+[0-9] 	     -- matches any chareacter between them
+
+a/**/z       -- would match a/z, a/b/z, a/b/c/z, and so on
+
+# ignore all .a files
+*.a
+
+# but do track lib.a, even though you're ignoring .a files above
+!lib.a
+
+# only ignore the TODO file in the current directory, not subdir/TODO
+/TODO
+
+# ignore all files in any directory named build
+build/
+
+# ignore doc/notes.txt, but not doc/server/arch.txt
+doc/*.txt
+
+# ignore all .pdf files in the doc/ directory and any of its subdirectories
+doc/**/*.pdf
